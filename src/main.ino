@@ -512,7 +512,7 @@ void loop() {
   ttgo->tft->setCursor( 0, 0 );
   ttgo->tft->setTextFont( 0 );
   ttgo->tft->setTextSize( 1 );
-  ttgo->tft->print("MClock V0 menu");
+  ttgo->tft->print("MClock V1 menu");
   ttgo->tft->setTextColor( MAIN_COLOR );
   switch( program.current ){
     case 0: icons.clock(); break;
